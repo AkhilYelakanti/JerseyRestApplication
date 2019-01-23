@@ -1,0 +1,1 @@
+a list  of libraries used in the application
