@@ -37,7 +37,7 @@ public class Sample {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response postSample(@FormParam("name") String name) {
 		Response response=null;
-		String message="hello this is sample rest api to get method";
+		String message="hello this is sample rest api to post method";
 		response= Response.ok().entity(message).build();
 		return response;
 		
